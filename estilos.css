@@ -404,3 +404,174 @@ footer {
     background-color: var(--color-verde);
     transition: background-color 0.3s ease;
 }
+
+
+-- NOSOTROS-- 
+.hero {
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    color: var(--color-fondo);
+}
+
+.hero-nosotros {
+    background-image: linear-gradient(rgba(80, 75, 70, 0.9), rgba(80, 75, 70, 0.8)), url('img/ky.pjg.jpg');
+}
+
+.hero-texto {
+    flex: 1;
+}
+
+.etiqueta-hero {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--color-tarjetas);
+    display: block;
+    margin-bottom: 15px;
+}
+
+.hero-titulo {
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.hero-bajada {
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+
+.seccion-categorias {
+    padding: 80px 0;
+    background-color: var(--color-fondo);
+}
+
+.grid-4-columnas {
+    display: grid;
+    gap: 20px;
+}
+
+.grid-nosotros-layout {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    text-align: left;
+}
+
+.subtitulo-seccion {
+    color: var(--color-terracota);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.titulo-nosotros {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.texto-gris {
+    color: #555;
+}
+
+.margen-inferior {
+    margin-bottom: 15px;
+}
+
+.tarjeta-categoria {
+    background-color: var(--color-tarjetas);
+    border-radius: 16px;
+    padding: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta-auto {
+    height: auto;
+}
+
+.icono-categoria {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-fondo);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.lista-reconocimientos {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: var(--color-texto);
+    color: var(--color-fondo);
+    padding: 60px 0 20px 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-columna h4 {
+    color: var(--color-tarjetas);
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-columna ul {
+    list-style: none;
+}
+
+.footer-columna ul li {
+    margin-bottom: 12px;
+}
+
+.footer-columna a {
+    color: var(--color-fondo);
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.footer-descripcion {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.footer-copy {
+    text-align: center;
+    border-top: 1px solid rgba(245, 242, 236, 0.1);
+    padding-top: 20px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.icono-categoria {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-fondo);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.img-copa {
+    width: 24px; 
+    height: 24px;
+    object-fit: contain;
+    display: block;
+}
