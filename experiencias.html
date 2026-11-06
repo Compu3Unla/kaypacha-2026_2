@@ -12,9 +12,9 @@
 
     <div class="top-bar">
         <div class="contenedor">
-            <span>Taller Artesanal en Zonasur & B.A. | Envíos a todo el mundo</span>
-            <span>Envío gratuito con el código <strong>KAYPACHA</strong></span>
-            <span>Atención Personalizada | ESP / ENG</span>
+            <p>Taller Artesanal en Zonasur & B.A. | Envíos a todo el mundo</p>
+            <p>Envío gratuito con el código <strong>KAYPACHA</strong></p>
+            <p>Atención Personalizada | ESP / ENG</p>
         </div>
     </div>
 
@@ -30,59 +30,59 @@
             </nav>
             <div class="header-acciones">
                 <input type="text" class="buscador" placeholder=" Buscar quenas, tambores...">
-                <a href="#" class="icono-carrito"> </a>
+                <a href="#" class="enlace-carrito">
+                    <img src="img/carrito.svg" alt="Carrito de compras" class="img-carrito">
+                </a>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero"
-            style="background-image: linear-gradient(rgba(80, 75, 70, 0.9), rgba(80, 75, 70, 0.8)), url('img/xp.jpg'); padding: 60px 0;">
-            <div class="contenedor" style="justify-content: center; text-align: center;">
+        <section class="hero hero-experiencias">
+            <div class="contenedor contenedor-centrado">
                 <div class="hero-texto">
-                    <span class="etiqueta-hero">Comunidad & Ritual</span>
-                    <h1 style="margin-bottom: 10px;">Experiencias Vibracionales</h1>
-                    <p style="margin: 0 auto;">Círculos de tambores, baños de sonido y retiros de meditación acústica.
-                    </p>
+                    <p class="etiqueta-hero">Comunidad & Ritual</p>
+                    <h1 class="hero-titulo">Experiencias Vibracionales</h1>
+                    <p class="hero-bajada">Círculos de tambores, baños de sonido y retiros de meditación acústica.</p>
                 </div>
             </div>
         </section>
 
         <section class="seccion-categorias">
             <div class="contenedor">
-                <span
-                    style="color: var(--color-terracota); font-size: 12px; font-weight: bold; letter-spacing: 2px;">GALERÍA
-                    MULTIMEDIA</span>
+                <p class="subtitulo-seccion">GALERÍA MULTIMEDIA</p>
                 <h2 class="titulo-centrado">Registros de Encuentros</h2>
 
-                <div class="grid-4-columnas" style="grid-template-columns: repeat(2, 1fr); margin-top: 40px;">
+                <div class="grid-4-columnas grid-2-columnas">
 
-                    <article class="tarjeta-categoria" style="height: auto;">
+                    <article class="tarjeta-categoria tarjeta-auto">
                         <h3>Septimo encuentro de Kaypacha</h3>
-                        <p style="margin-bottom: 15px;">Revive nuestro último encuentro en Buenos Aires.</p>
+                        <p class="texto-margen-inferior">Revive nuestro último encuentro en Buenos Aires.</p>
                         <video class="multimedia-reproductor" controls>
                             <source src="img/peru.mp4" type="video/mp4">
                             Tu navegador no soporta el formato de video.
                         </video>
                     </article>
 
-                    <article class="tarjeta-categoria" style="height: auto;">
-                        <span
-                            style="background-color: var(--color-terracota); color: var(--color-fondo); padding: 5px 12px; border-radius: 12px; font-size: 11px; font-weight: bold; display: inline-block; width: fit-content; margin-bottom: 15px;">Próximo
-                            Evento</span>
+                    <article class="tarjeta-evento-compacta">
+                        <div class="etiqueta-evento">Próximo Evento</div>
                         <h3>Círculo de Tambores Chamánicos</h3>
-                        <p><strong>Fecha:</strong> Sábado 25 de Octubre<br><strong>Lugar:</strong> Córdoba</p>
-                        <p style="margin-top: 10px;">Viví una jornada intensiva de ritmo, cantos medicinales y fuego
+                        
+                        <div class="info-evento-linea">
+                            <p><strong>Fecha:</strong> Sábado 25 de Octubre</p>
+                            <p><strong>Lugar:</strong> Córdoba</p>
+                        </div>
+
+                        <p class="texto-evento">Viví una jornada intensiva de ritmo, cantos medicinales y fuego
                             ceremonial al aire libre, en un espacio de encuentro, conexión y exploración sonora. A
                             través de la música, la percusión y el poder de la voz, compartiremos una experiencia
                             colectiva que invita a conectar con la naturaleza, el cuerpo y la energía del grupo. Una
                             propuesta para detenerse, escuchar y dejarse llevar por los sonidos, las vibraciones y la
                             fuerza del fuego, creando un momento único de expresión, aprendizaje y conexión con nuestras
                             raíces.</p>
-                        <a href="clases.html" class="btn-primario"
-                            style="text-align: center; margin-top: 20px;">Reservar mi Lugar</a>
+                        
+                        <a href="clases.html" class="btn-primario btn-evento">Reservar mi Lugar</a>
                     </article>
-
                 </div>
             </div>
         </section>
@@ -93,8 +93,7 @@
             <div class="footer-grid">
                 <div class="footer-columna">
                     <h4>Kaypacha</h4>
-                    <p style="font-size: 14px; opacity: 0.8;">Lutería orgánica y acústica ancestral para reconectar el
-                        espíritu.</p>
+                    <p class="footer-descripcion">Lutería orgánica y acústica ancestral para reconectar el espíritu.</p>
                 </div>
                 <div class="footer-columna">
                     <h4>Navegación</h4>
