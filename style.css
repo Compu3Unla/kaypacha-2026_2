@@ -153,3 +153,32 @@ nav a {
     background-color: var(--color-fondo);
     text-align: center;
 }
+.collections_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.collection_card {
+    background-color: var(--color-tarjetas);
+    border-radius: 16px;
+    padding: 25px;
+    text-align: left;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+}
+.collection_card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.collection_card p {
+    font-size: 13px;
+    color: #555;
+    flex-grow: 1;
+}
+.collection_card a {
+    color: var(--color-terracota);
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: none;
+}
