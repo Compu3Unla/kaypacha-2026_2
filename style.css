@@ -81,15 +81,19 @@ nav a {
     background-image: url('img/oca.jpg');
     background-size: cover;
     background-position: center;
-    padding: 80px 0; 
-    color: var(--color-fondo);
+    padding: 80px 30px; 
+    color: var(--color-fondo);    
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-.front h1 {
+.front_text h1 {
     font-size: 48px;
     line-height: 1.1;
     margin-bottom: 20px;
 }
-.front p {
+.front_text p {
     font-size: 16px;
     margin-bottom: 30px;
     max-width: 500px;
@@ -152,6 +156,21 @@ nav a {
     padding: 80px 0;
     background-color: var(--color-fondo);
     text-align: center;
+    padding: 40px 30px;
+}
+.collections .tittle{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.collections .subtittle{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.collections h3 {
+    color: var(--color-terracota);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .collections_grid {
     display: grid;
@@ -184,7 +203,7 @@ nav a {
 }
 /*catalog*/
 .catalog{
-    padding: 60px 0 100px 0;
+    padding: 60px 30px;
     background-color: var(--color-fondo);
 }
 .catalog_header {
@@ -192,6 +211,7 @@ nav a {
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 .catalog_header div h3 {
     color: var(--color-terracota);
