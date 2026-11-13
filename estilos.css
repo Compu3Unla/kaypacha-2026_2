@@ -159,10 +159,10 @@ nav a {
     align-items: center;
     margin-bottom: 15px;
 }
-.front_card_conteiner h2 {
+.front_card h2 {
     font-size: 18px;
 }
-.front_card .price {
+.price {
     color: var(--color-terracota);
     font-weight: bold;
     font-size: 18px;
@@ -173,9 +173,6 @@ nav a {
     background-color: var(--color-fondo);
     text-align: center;
     padding: 40px 30px;
-}
-.collection_card img{
-    margin-bottom: 10px;
 }
 .collections .tittle{
     font-size: 32px;
@@ -191,6 +188,7 @@ nav a {
     font-weight: bold;
     letter-spacing: 2px;
 }
+/*----------collection_cards----------*/
 .collections_grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -204,6 +202,9 @@ nav a {
     height: 260px;
     display: flex;
     flex-direction: column;
+}
+.collection_card img{
+    margin-bottom: 10px;
 }
 .collection_card h2 {
     font-size: 20px;
@@ -224,6 +225,7 @@ nav a {
     padding: 60px 30px;
     background-color: var(--color-fondo);
 }
+/*----------catalog_header----------*/
 .catalog_header {
     display: flex;
     justify-content: space-between;
@@ -231,13 +233,13 @@ nav a {
     margin-bottom: 40px;
     flex-wrap: wrap;
 }
-.catalog_header div h3 {
+.catalog_header h3 {
     color: var(--color-terracota);
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 2px;
 }
-.catalog_header div h2{
+.catalog_header h2{
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 20px;
@@ -260,6 +262,12 @@ nav a {
     font-family: inherit;
     font-weight: 600;
     font-size: 13px;
+}
+/*----------products_cards----------*/
+.products_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 .product_card {
     background-color: var(--color-fondo);
@@ -284,11 +292,6 @@ nav a {
     color: var(--color-texto);
     margin-bottom: 20px;
     height: 40px; 
-}
-.products_grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
 }
 .product_card_footer {
     display: flex;
@@ -358,7 +361,6 @@ footer h3{
         background-color: var(--color-tarjetas);
     }
 }
-
 @media screen and (max-width: 1200px){
     .search_bar {
         max-width: 150px;
