@@ -16,17 +16,26 @@
         </div>
         <nav>
             <div><a href="index.html"><img src="img/logo.gif" alt="keypacha"></a></div>
-            <ul>
+            <ul class="pc_nav">
                 <li><a href="index.html">Tienda</a></li>
                 <li><a href="clases.html">Clases</a></li>
                 <li><a href="experiencias.html">Experiencias</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
             </ul>
             <div class="search_section">
-                <input type="text" class="search_bar" placeholder="Buscar...">
-                <a href="#" class="icono-carrito"><img src="img/carrito.svg" width="22px" height="22px"></a>
+                <input type="text" class="search_bar" placeholder=" Buscar...">
+                <a href="#" class="icono-carrito"><img src="img/carrito.png" width="100px" height="100px"></a>
             </div>
         </nav>
+        <ul class="mobile_nav">
+            <li><a href="index.html">Tienda</a></li>
+            <li>|</li>
+            <li><a href="clases.html">Clases</a></li>
+            <li>|</li>
+            <li><a href="experiencias.html">Experiencias</a></li>
+            <li>|</li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
     </header>
     <main>
         <section class="front">
@@ -35,7 +44,7 @@
                 <h1>Explora la magia del sonido ancestral</h1>
                 <p>Cada instrumento en Kaypacha es afinado a mano mediante técnicas milenarias. Flautas andinas, tambores chamánicos y vibraciones que conectan tu espíritu con la tierra.</p>
                 <div class="buttons">
-                    <a href="#tienda" class="btn-primary">Explora el Catálogo →</a>
+                    <a href="#catalog" class="btn-primary">Explora el Catálogo →</a>
                     <a href="clases.html" class="btn-secondary">Reservate una Clases</a>
                 </div>
             </div>
@@ -57,29 +66,29 @@
                     <img src="img/flauta.svg" width="50" height="50" alt="Flauta">
                     <h2>Flautas Andinas & Quenas</h2>
                     <p>Quenas, Quenachos, Zampoñas y Tarkas labradas a mano en maderas nobles.</p>
-                    <a href="">Explorar vientos</a>
+                    <a href="#">Explorar vientos</a>
                 </div>
                 <div class="collection_card">
                     <img src="img/tambor.svg" width="50" height="50" alt="Tambor">
                     <h2>Tambores Chamánicos</h2>
                     <p>Cultrunes, Frame Drums y Tambores de Marco con parches naturales.</p>
-                    <a href="">Explorar percusión</a>
+                    <a href="#">Explorar percusión</a>
                 </div>
                 <div class="collection_card">
                     <img src="img/cuerdas.svg" width="50" height="50" alt="Cuerda">
                     <h2>Cuerdas Ancestrales</h2>
                     <p>Charangos, Ronrocos y Guitarras folclóricas por luthieres consagrados.</p>
-                    <a href="">Explorar cuerdas</a>
+                    <a href="#">Explorar cuerdas</a>
                 </div>
                 <div class="collection_card">
                     <img src="img/cuencos.svg" width="50" height="50" alt="Cuenco">
                     <h2>Cuencos & Didgeridoos</h2>
                     <p>Cuencos de cuarzo y bronce tibetano, didgeridoos de eucalipto.</p>
-                    <a href="">Explorar resonancia</a>
+                    <a href="#">Explorar resonancia</a>
                 </div>
             </div>
         </section>
-        <section class="catalog">
+        <section class="catalog" id="catalog">
             <div class="catalog_header">
                 <div>
                     <h3>CATÁLOGO PRINCIPAL</h3>
@@ -95,39 +104,39 @@
             </div>
             <div class="products_grid">
                 <div class="product_card">
-                    <img src="img/qna.jpg" alt="">
-                    <h2>Quena Profesional de Jacarandá</h2>
+                    <img src="img/qna.jpg" alt="Quena Profesional de Jacarandá">
+                    <a href="galery/galery_one.html">Quena Profesional de Jacarandá</a>
                     <p>Afinada en Sol Mayor (440Hz). Tono cálido y resuelta respuesta.</p>
                     <div class="product_card_footer">
                         <h2 class="price">$12000.00</h2>
-                        <a href="" class="add_button">Añadir +</a>
+                        <input type="button" value="Añadir +" class="add_button">
                     </div>
                 </div>
                 <div class="product_card">
-                    <img src="img/tm.jpg" alt="">
-                    <h2>Tambor Chamánico de Venado</h2>
+                    <img src="img/tm.jpg" alt="tambor">
+                    <a href="galery/galery_two.html">Tambor Chamánico de Venado</a>
                     <p>Marco de madera de sauce con parche de cuero ceremonial y baqueta.</p>
                     <div class="product_card_footer">
                         <h2 class="price">$15000.00</h2>
-                        <a href="" class="add_button">Añadir +</a>
+                        <input type="button" value="Añadir +" class="add_button">
                     </div>
                 </div>
                 <div class="product_card">
-                    <img src="img/km.jpg" alt="">
-                    <h2>Kamelé n'goni</h2>
+                    <img src="img/km.jpg" alt="Kamelé n'goni">
+                    <a href="galery/galery_three.html">Kamelé n'goni</a>
                     <p>Concebido para el entretenimiento y tocado libremente por los jóvenes para cantar sobre temas contemporáneos.</p>
                     <div class="product_card_footer">
                         <h2 class="price">$30000.00</h2>
-                        <a href="" class="add_button">Añadir +</a>
+                        <input type="button" value="Añadir +" class="add_button">
                     </div>
                 </div>
                 <div class="product_card">
-                    <img src="img/fl.jpg" alt="">
-                    <h2>Flauta Africana</h2>
+                    <img src="img/fl.jpg" alt="Flauta Africana">
+                    <a href="galery/galery_four.html">Flauta Africana</a>
                     <p>Instrumento aerófono profundamente arraigado en diversas culturas del continente</p>
                     <div class="product_card_footer">
                         <h2 class="price">$25000.00</h2>
-                        <a href="" class="add_button">Añadir +</a>
+                        <input type="button" value="Añadir +" class="add_button">
                     </div>
                 </div>
             </div>
@@ -141,12 +150,12 @@
             </div>
             <div>
                 <h2>Navegación</h2>
-                <a href="">Catálogo de Instrumentos</a>
-                <a href="">Experiencias y Retiros</a>
+                <a href="#catalog">Catálogo de Instrumentos</a>
+                <a href="#">Experiencias y Retiros</a>
             </div>
             <div>
                 <h2>Comunidad</h2>
-                <a href="">Instagram</a>
+                <a href="#">Instagram</a>
                 <a href="">YouTube</a>
             </div>
         </div>
